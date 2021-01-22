@@ -1,5 +1,5 @@
 {
-    "name": "service-stub",
+    "name": "@tohasan/service-stub",
     "version": "1.0.0",
     "main": "index.js",
     "repository": "https://github.com/tohasan/service-stub",
