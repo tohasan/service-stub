@@ -7,7 +7,12 @@
     "license": "MIT",
     "private": true,
     "scripts": {
-        "start": "node index.js"
+        "start": "node index.js",
+        "docker:build": "docker build --tag tohasan/service-stub .",
+        "docker:run": "docker run -p 4000:4000 --name service-stub -d tohasan/service-stub",
+        "docker:start": "docker start service-stub",
+        "docker:stop": "docker stop service-stub",
+        "docker:push": "docker push tohasan/service-stub"
     },
     "dependencies": {
         "body-parser": "1.19.0",
